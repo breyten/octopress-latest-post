@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable octopress-latest-post': 'octopress-latest-post:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'octopress-latest-post'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'octopress-latest-post:toggle' }
+      ]
+    ]
+  }
+]

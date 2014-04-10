@@ -1,0 +1,14 @@
+{
+  "name": "octopress-latest-post",
+  "main": "./lib/octopress-latest-post",
+  "version": "0.0.1",
+  "description": "Load the latest octopress blog post",
+  "activationEvents": ["octopress-latest-post:find"],
+  "repository": "https://github.com/atom/octopress-latest-post",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
