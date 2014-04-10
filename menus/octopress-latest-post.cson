@@ -1,15 +1,11 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
-'context-menu':
-  '.overlayer':
-      'Enable octopress-latest-post': 'octopress-latest-post:find'
-
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'octopress-latest-post'
+      'label': 'Octopress'
       'submenu': [
-        { 'label': 'Find', 'command': 'octopress-latest-post:find' }
+        { 'label': 'Latest post', 'command': 'octopress-latest-post:find' }
       ]
     ]
   }
