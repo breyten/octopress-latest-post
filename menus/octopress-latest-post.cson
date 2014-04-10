@@ -1,7 +1,7 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Enable octopress-latest-post': 'octopress-latest-post:toggle'
+      'Enable octopress-latest-post': 'octopress-latest-post:find'
 
 'menu': [
   {
@@ -9,7 +9,7 @@
     'submenu': [
       'label': 'octopress-latest-post'
       'submenu': [
-        { 'label': 'Toggle', 'command': 'octopress-latest-post:toggle' }
+        { 'label': 'Find', 'command': 'octopress-latest-post:find' }
       ]
     ]
   }
